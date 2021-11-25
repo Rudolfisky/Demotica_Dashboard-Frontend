@@ -20,7 +20,7 @@ class Temp extends React.Component {
 
     getData(){
         console.log('Temp Component getData()')
-        fetch("http://localhost:8087/temps/average/10sec")
+        fetch("http://192.168.0.67:8087/temps/average/10sec")
         .then(res => res.json())
         .then(
           (result) => {
