@@ -5,9 +5,9 @@ name: main CI/CD
 
 on:
   push:
-    branches: [ development ]
+    branches: [ developer ]
   pull_request:
-    branches: [ development ]
+    branches: [ developer ]
 
 jobs:
   build:
@@ -29,13 +29,3 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
-
-    - name: Build & push Docker image
-      uses: mr-smithers-excellent/docker-build-push@v5
-      with:
-        image: rudolfisky/demoticadashboard-temperatureservice
-        tags: latest
-        registry: docker.io
-        dockerfile: Dockerfile
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
