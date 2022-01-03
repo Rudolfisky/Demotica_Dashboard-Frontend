@@ -1,3 +1,6 @@
+[![main CI](https://github.com/Rudolfisky/Demotica_Dashboard-Frontend/actions/workflows/main_CI-CD.yml/badge.svg)](https://github.com/Rudolfisky/Demotica_Dashboard-Frontend/actions/workflows/main_CI-CD.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/rudolfisky/demotica_dashboard-frontend/badge)](https://www.codefactor.io/repository/github/rudolfisky/demotica_dashboard-frontend)<br/>
+[![developer CI](https://github.com/Rudolfisky/Demotica_Dashboard-Frontend/actions/workflows/development_CI.yml/badge.svg)](https://github.com/Rudolfisky/Demotica_Dashboard-Frontend/actions/workflows/development_CI.yml)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
