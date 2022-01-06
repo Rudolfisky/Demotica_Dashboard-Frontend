@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Temp from '../Components/Temp';
 
-test('renders ', () => {
-  render(<App />);
+test('renders temp', () => {
+  render(<Temp />);
   const linkElement = screen.getByTestId(/temp/i);
   expect(linkElement).toBeInTheDocument();
 });
