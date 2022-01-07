@@ -1,7 +1,5 @@
 import './App.css';
-import Temp from './Components/Temp';
 import AuthenticationChecker from './Components/authenticationChecker';
-import LogoutButton from './Components/logout-button';
 function App() {
   return (
     <div className="App">
